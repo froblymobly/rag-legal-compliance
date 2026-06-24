@@ -12,3 +12,4 @@ pydantic
 anthropic
 langchain
 langchain-community
+qdrant-client
