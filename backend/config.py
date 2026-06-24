@@ -2,8 +2,8 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-QDRANT_URL        = os.getenv("QDRANT_URL")
-QDRANT_API_KEY    = os.getenv("QDRANT_API_KEY")
+QDRANT_URL        = os.getenv("https://346fdb2c-6534-4265-840c-c05ce1b940c5.sa-east-1-0.aws.cloud.qdrant.io")
+QDRANT_API_KEY    = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIiwic3ViamVjdCI6ImFwaS1rZXk6ODUxM2Q2YjItOGVhYi00N2Q2LThiNGQtYmFk>")
 COLLECTION_NAME   = os.getenv("COLLECTION_NAME", "legal_compliance_india")
 EMBED_MODEL       = os.getenv("EMBED_MODEL", "BAAI/bge-small-en-v1.5")
 GROQ_API_KEY      = os.getenv("GROQ_API_KEY")
