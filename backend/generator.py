@@ -28,4 +28,3 @@ def generate_answer(query: str, context_chunks: list[dict]) -> dict:
         "answer": response.choices[0].message.content,
         "sources": list({c.get("legal_address", c.get("source", "unknown")) for c in context_chunks})
     }
-EOF

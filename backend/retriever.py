@@ -60,4 +60,3 @@ class Retriever:
 
     def count(self):
         return self.client.get_collection(COLLECTION_NAME).points_count
-EOF

@@ -43,4 +43,4 @@ if st.button("🔍 Get Answer", type="primary") and query:
                     st.text(chunk["text"][:300] + "...")
         except Exception as e:
             st.error(f"Error: {e}")
-EOF
+

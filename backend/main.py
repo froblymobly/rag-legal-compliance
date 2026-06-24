@@ -43,4 +43,4 @@ def ingest(req: IngestRequest):
 @app.get("/stats")
 def stats():
     return {"total_chunks": retriever.count(), "collection": COLLECTION_NAME}
-EOF
+
