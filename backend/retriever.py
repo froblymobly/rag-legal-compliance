@@ -7,7 +7,7 @@ import uuid
 
 class Retriever:
     def __init__(self):
-        self.client = QdrantClient(url=https://346fdb2c-6534-4265-840c-c05ce1b940c5.sa-east-1-0.aws.cloud.qdrant.io, api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIiwic3ViamVjdCI6ImFwaS1rZXk6NTA4MGFkODUtYTgwYS00NGJjLT)
+        self.client = QdrantClient(url="https://346fdb2c-6534-4265-840c-c05ce1b940c5.sa-east-1-0.aws.cloud.qdrant.io", api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIiwic3ViamVjdCI6ImFwaS1rZXk6NTA4MGFkODUtYTgwYS00NGJjLT")
         self.embedder = Embedder()
         self._init_collection()
 
